@@ -6,5 +6,14 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-styled-components-dark-mode`,
+      options: {
+        light: require(`${__dirname}/src/themes/lightTheme.js`),
+        dark: require(`${__dirname}/src/themes/darkTheme.js`),
+      },
+    },
+  ],
 }
