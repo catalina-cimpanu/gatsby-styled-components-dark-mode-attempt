@@ -1,6 +1,4 @@
-const darkTheme = {
-  mainColor: "topaz",
-  secondaryColor: "ruby",
+module.exports = {
+  mainColor: "rebeccapurple",
+  secondaryColor: "pink",
 }
-
-export default darkTheme

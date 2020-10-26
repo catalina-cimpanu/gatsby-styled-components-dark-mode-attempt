@@ -1,6 +1,4 @@
-const lightTheme = {
-  mainColor: "pampas",
-  buttonColor: "shadyLady",
+module.exports = {
+  mainColor: "pink",
+  secondaryColor: "rebeccapurple",
 }
-
-export default lightTheme
